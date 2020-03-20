@@ -1,0 +1,285 @@
+body {
+  min-height: 100vh;
+  background-color: #f0f2f5 !important;
+}
+
+body .bg-white {
+  background: #fff;
+}
+body .height-100vh {
+  height: 100vh;
+}
+body .min-height-100vh {
+  min-height: 100vh;
+}
+body .max-height-100vh {
+  max-height: 100vh;
+}
+body .width-100 {
+  width: 100%;
+}
+body .h-pointer:hover {
+  cursor: pointer;
+}
+body .scroll-y {
+  overflow-y: scroll;
+}
+body .scroll-x {
+  overflow-x: scroll;
+}
+
+body .m-0 {
+  margin: 0;
+}
+body .m-10 {
+  margin: 10px;
+}
+body .m-15 {
+  margin: 15px;
+}
+body .m-30 {
+  margin: 30px;
+}
+body .m-45 {
+  margin: 45px;
+}
+body .my-5 {
+  margin: 5px 0;
+}
+body .my-10 {
+  margin: 10px 0;
+}
+body .my-15 {
+  margin: 15px 0;
+}
+body .my-30 {
+  margin: 30px 0;
+}
+body .my-45 {
+  margin: 45px 0;
+}
+body .mx-5 {
+  margin: 0 5px;
+}
+body .mx-10 {
+  margin: 0 10px;
+}
+body .mx-15 {
+  margin: 0 15px;
+}
+body .mx-30 {
+  margin: 0 30px;
+}
+body .mx-45 {
+  margin: 0 45px;
+}
+
+body .p-10 {
+  padding: 10px;
+}
+body .p-15 {
+  padding: 15px;
+}
+body .p-30 {
+  padding: 30px;
+}
+body .p-45 {
+  padding: 45px;
+}
+body .py-5 {
+  padding: 5px 0;
+}
+body .py-10 {
+  padding: 10px 0;
+}
+body .px-5 {
+  padding: 0 5px;
+}
+body .px-10 {
+  padding: 0 10px;
+}
+
+body .d-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+body .d-flex-col {
+  display: flex;
+  flex-direction: column;
+}
+body .align-center {
+  align-items: center;
+}
+body .justify-center {
+  justify-content: center;
+}
+body .justify-around {
+  justify-content: space-around;
+}
+body .justify-between {
+  justify-content: space-between;
+}
+body .justify-end {
+  justify-content: flex-end;
+}
+
+body .center {
+  text-align: center;
+}
+body .align-right {
+  text-align: right;
+}
+body .align-left {
+  text-align: left;
+}
+body .right {
+  float: right;
+}
+body .left {
+  float: left;
+}
+
+body .logo {
+  height: 50px;
+}
+
+.margin-top {
+  margin-top: 15px;
+}
+.add-account {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+}
+.add-account button {
+  font-size: 16px;
+  padding: 0px 5px !important;
+}
+.account-btn {
+  display: flex !important;
+  justify-content: flex-end;
+}
+.account-btn .ant-form-item-children {
+  float: right;
+}
+.ant-avatar-square {
+  margin-bottom: 10px;
+}
+.product-image ul {
+  list-style-type: none;
+}
+
+.product-image-li {
+  display: inline-block;
+}
+
+input[type="checkbox"][id^="cb"] {
+  display: none;
+}
+
+label {
+  border: 1px solid #fff;
+  padding: 5px;
+  display: block;
+  position: relative;
+  margin: 5px;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+label::before {
+  background-color: white;
+  color: white;
+  content: " ";
+  display: block;
+  border-radius: 50%;
+  border: 1px solid grey;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 28px;
+  transition-duration: 0.4s;
+  transform: scale(0);
+}
+
+label img {
+  height: 50px;
+  width: 50px;
+  transition-duration: 0.2s;
+  transform-origin: 50% 50%;
+}
+
+:checked + label {
+  border-color: #ddd;
+}
+
+:checked + label::before {
+  content: "✓";
+  background-color: grey;
+  transform: scale(1);
+  z-index: 999999;
+}
+
+:checked + label img {
+  transform: scale(0.9);
+  box-shadow: 0 0 5px #333;
+  z-index: -1;
+}
+
+/***** Form Style *****/
+.account-form label {
+  display: inline;
+}
+.account-form .ant-form-item {
+  margin-bottom: 5px;
+}
+.search-customer span {
+  color: #096dd9;
+  font-size: 11px !important;
+}
+.ant-select-selection {
+  overflow: hidden;
+}
+.search-customer {
+  border-bottom: 1px solid #e8e8e8;
+  font-size: 12px !important;
+}
+.search-customer:last-child {
+  border: 0px;
+}
+.search-customer p {
+  margin: 0;
+}
+.customer-search-input .ant-select-selection-selected-value {
+  display: inline-flex;
+  font-size: 12px !important;
+}
+.customer-search-input .ant-select-selection-selected-value p {
+  margin-right: 5px;
+  float: left;
+}
+.customer-search-input .ant-select-selection-selected-value p span {
+  margin-right: 0px !important;
+}
+.customer-search-input .ant-select-selection-selected-value span {
+  color: #1890ff;
+  font-size: 10px;
+}
+.customer-search-input .ant-select-selection-selected-value span:last-child {
+  margin-right: 3px;
+}
+.customer-search-input .ant-select-dropdown-menu-item {
+  font-size: 10px;
+}
+.total-label{
+  color: #1890ff;
+  font-size: 16px;
+}
